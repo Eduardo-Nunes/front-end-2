@@ -24,4 +24,7 @@ function exibirResumo(precoUnitario, quantidade) {
 }
 
 
-exibirResumo(10.5, 3);
+let precoUnitario = prompt("Digite o Preço Unitário do produto:")
+let qnt = prompt("Digite a quantidade de itens:")
+
+exibirResumo(precoUnitario, qnt);
