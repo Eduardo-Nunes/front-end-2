@@ -16,7 +16,7 @@ function aplicarDesconto(valorTotal) {
 }
 
 function exibirResumo(precoUnitario, quantidade) {
-    const valorTotal = calcularTotal(precoUnitario, quantidade);
+    const valorTotal = calcularToral(precoUnitario, quantidade);
     const valorComDesconto = aplicarDesconto(valorTotal);
     
     console.log(`Valor total antes do desconto: R$ ${valorTotal.toFixed(2)}`);
