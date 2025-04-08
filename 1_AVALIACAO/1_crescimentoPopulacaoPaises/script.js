@@ -13,9 +13,9 @@ function crescimentoPopulacaoPaises() {
         anos++;
     }
 
-    console.log({ anos });
-
     return anos;
 }
 
-crescimentoPopulacaoPaises();
+const anosNecessarios = crescimentoPopulacaoPaises();
+
+console.log(`Serão necessários ${anosNecessarios} anos para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.`);
